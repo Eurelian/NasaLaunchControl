@@ -1,0 +1,11 @@
+{
+  "name": "nasaExplorer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "yarn --cwd server dev",
+    "client": "yarn --cwd client start ",
+    "watch": "yarn run server & yarn run client"
+  }
+}
